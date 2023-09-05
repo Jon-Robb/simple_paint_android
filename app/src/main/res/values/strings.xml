@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tp2_paint</string>
+    <string name="largeur_desiree">Largeur désirée : </string>
+    <string name="btn_texte">Valider</string>
+</resources>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/conteneurPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:id="@+id/conteneurOutil"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgTraitLibre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/crayon" />
+
+            <ImageView
+                android:id="@+id/imgLargeurTrait"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/largeur_trait" />
+
+            <ImageView
+                android:id="@+id/imgEfface"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/efface" />
+
+            <ImageView
+                android:id="@+id/imgTriangle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/triangle" />
+
+            <ImageView
+                android:id="@+id/imgRectangle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/rectangle" />
+
+            <ImageView
+                android:id="@+id/imgCercle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/cercle" />
+
+            <ImageView
+                android:id="@+id/imgRemplir"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/remplir" />
+
+            <ImageView
+                android:id="@+id/imgUndo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/undo" />
+
+            <ImageView
+                android:id="@+id/imgPipette"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/pipette" />
+
+            <ImageView
+                android:id="@+id/imgRedo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/redo" />
+
+            <ImageView
+                android:id="@+id/imgSauvegarder"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/enregistrer" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/conteneur"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/conteneurCouleur"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ToggleButton
+                android:id="@+id/btnBleu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/bleu"
+                android:backgroundTint="@color/bleu"
+                android:checked="true"
+                android:text=""
+                android:textIsSelectable="false"
+                android:textOff=""
+                android:textOn=""
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <ToggleButton
+                android:id="@+id/btnCorail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/corail"
+                android:backgroundTint="@color/corail"
+                android:text=""
+                android:textIsSelectable="false"
+                android:textOff=""
+                android:textOn="" />
+
+            <ToggleButton
+                android:id="@+id/btnCreme"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/creme"
+                android:backgroundTint="@color/creme"
+                android:text=""
+                android:textIsSelectable="false"
+                android:textOff=""
+                android:textOn="" />
+
+            <ToggleButton
+                android:id="@+id/btnEmeraude"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/emeraude"
+                android:backgroundTint="@color/emeraude"
+                android:text=""
+                android:textIsSelectable="false"
+                android:textOff=""
+                android:textOn="" />
+
+            <ToggleButton
+                android:id="@+id/btnJaune"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/jaune"
+                android:backgroundTint="@color/jaune"
+                android:text=""
+                android:textIsSelectable="false"
+                android:textOff=""
+                android:textOn="" />
+
+            <ToggleButton
+                android:id="@+id/btnRose"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/rose"
+                android:backgroundTint="@color/rose"
+                android:text=""
+                android:textIsSelectable="false"
+                android:textOff=""
+                android:textOn="" />
+
+            <ToggleButton
+                android:id="@+id/btnRouge"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/rouge"
+                android:backgroundTint="@color/rouge"
+                android:text=""
+                android:textIsSelectable="false"
+                android:textOff=""
+                android:textOn="" />
+
+            <ToggleButton
+                android:id="@+id/btnTangerine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/tangerine"
+                android:backgroundTint="@color/tangerine"
+                android:text=""
+                android:textIsSelectable="false"
+                android:textOff=""
+                android:textOn="" />
+
+            <ToggleButton
+                android:id="@+id/btnVert"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/vert"
+                android:backgroundTint="@color/vert"
+                android:text=""
+                android:textIsSelectable="false"
+                android:textOff=""
+                android:textOn="" />
+
+            <ToggleButton
+                android:id="@+id/btnViolet"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/violet"
+                android:backgroundTint="@color/violet"
+                android:text=""
+                android:textIsSelectable="false"
+                android:textOff=""
+                android:textOn="" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
