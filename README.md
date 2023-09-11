@@ -60,27 +60,27 @@
 <br/>
 <h3 align="center"> You can do circles </h3>
 <p align="center">
-  <img src="./images/cercle.png" alt="Circles" width="350">
+  <img src="./images/cercle.png" alt="Circles" width="200">
 </p>
 <br/>
 <h3 align="center"> You can also do triangles </h3>
 <p align="center">
-  <img src="./images/triangles.png" alt="Triangles" width="350">
+  <img src="./images/triangles.png" alt="Triangles" width="200">
 </p>
 <br/>
 <h3 align="center"> Rectangles are also possible </h3>
 <p align="center">
-  <img src="./images/rectangles.png" alt="Rectangles" width="350">
+  <img src="./images/rectangles.png" alt="Rectangles" width="200">
 </p>
 <br/>
 <h3 align="center"> You can choose the width of the pen </h3>
 <p align="center">
-  <img src="./images/largeur_dialog.png" alt="Width dialog box" width="350">
+  <img src="./images/largeur_dialog.png" alt="Width dialog box" width="200">
 </p>
 <br/>
 <h3 align="center"> And then you can do some freedom drawing </h3>
 <p align="center">
-  <img src="./images/full_featured.png" alt="Freedom drawing" width="350">
+  <img src="./images/full_featured.png" alt="Freedom drawing" width="200">
 </p>
 <br/>
 <h3 align="center"> There are also some other features like choosing the color of the pen, painting the background and selecting a color by clicking on it </h3>
