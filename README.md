@@ -42,7 +42,6 @@
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Built With
@@ -50,7 +49,6 @@
 [![Android Studio][androidstudio-img]][androidstudio-url]
 [![Java][java-img]][java-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- USAGE EXAMPLES -->
